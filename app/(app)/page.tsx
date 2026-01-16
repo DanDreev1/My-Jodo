@@ -1,3 +1,5 @@
-export default function HomePage() {
-  return <div>Home placeholder</div>;
+import { redirect } from "next/navigation";
+
+export default function AppIndexPage() {
+  redirect("/calendar");
 }
