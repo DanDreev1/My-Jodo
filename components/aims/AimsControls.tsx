@@ -52,7 +52,7 @@ export function AimsControls({ view, label }: Props) {
 
   return (
     <section className="sticky top-19 z-10 bg-[#FFF7F0]">
-      <div className="h-90px px-4 md:px-8 py-5 flex items-center gap-4">
+      <div className="h-22.5 px-4 md:px-8 pt-4 pb-3 flex items-center gap-4">
         {/* LEFT: arrows + label */}
         <div className="flex items-center gap-3">
           <button
